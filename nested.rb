@@ -60,6 +60,8 @@ def dennis_ritchies_language
           :languages => ["C"]
         }
      }
+		 dennis = programmer_hash[:dennis_ritchie]
+		 hash = dennis[:languages].to_string
 end
 
 def adding_matz
