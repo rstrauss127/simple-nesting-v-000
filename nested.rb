@@ -62,7 +62,7 @@ def dennis_ritchies_language
      }
 		 dennis = programmer_hash[:dennis_ritchie]
 		 hash = dennis[:languages].to_s
-return "#{hash}"
+return hash
 
 end
 
